@@ -27,10 +27,16 @@ public class MainActivity extends AppCompatActivity {
 
         TabHost.TabSpec tab1 = tabHost.newTabSpec("Profil");
         TabHost.TabSpec tab2 = tabHost.newTabSpec("Setting");
+        TabHost.TabSpec tab3 = tabHost.newTabSpec("Encrypt");
+        TabHost.TabSpec tab4 = tabHost.newTabSpec("Decrypt");
         tab1.setIndicator("Profile");
         tab1.setContent(R.id.tab1);
         tab2.setIndicator("Setting");
         tab2.setContent(R.id.tab2);
+        tab3.setIndicator("Encrypt");
+        tab3.setContent(R.id.tab3);
+        tab4.setIndicator("Decrypt");
+        tab4.setContent(R.id.tab4);
         String[] values =
 
                 {"Mahasiswa", "Umum"};
@@ -52,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
 
         tabHost.addTab(tab1);
         tabHost.addTab(tab2);
+        tabHost.addTab(tab3);
+        tabHost.addTab(tab4);
 
     }
 

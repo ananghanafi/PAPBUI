@@ -12,7 +12,7 @@
         android:id="@+id/tabHost2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/alum">
+        android:background="@color/colorPrimaryDark">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -269,6 +269,22 @@
                         android:background="@color/white">
 
                     </ListView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/tab4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
 
                 </LinearLayout>
 
